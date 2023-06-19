@@ -6,7 +6,7 @@
 
 //************************************** */
 
-// href scrolling style
+// href Elements style
     scrollToElement = function(e, style, duration) {
         var y, cy, dy, start, easing, offset, f;
             if (!e) y = 0;
@@ -32,57 +32,6 @@
             if (style == 'instant') {
               window.scrollTo(0, y);
               return;
-            }
-            start = Date.now();
-            cy = window.scrollY;
-            dy = y - cy;
-            switch (style) {
-              case 'linear':
-                easing = function(t) {
-                  return t
-                };
-                break;
-              case 'smooth':
-                easing = function(t) {
-                  return t < .5 ? 4 * t * t * t : (t - 1) * (2 * t - 2) * (2 * t - 2) + 1
-                };
-                break;
-            }
-            f = function() {
-              var t = Date.now() - start;
-              if (t >= duration) window.scroll(0, y);
-              else {
-                window.scroll(0, cy + (dy * easing(t / duration)));
-                requestAnimationFrame(f);
-              }
-            };
-            f();
-          }
-          var initialSection, initialScrollPoint, initialId, header, footer, name, hideHeader, hideFooter, disableAutoScroll, h, e, ee, k, locked = false,
-            scrollPointParent = function(target) {
-              while (target) {
-                if (target.parentElement && target.parentElement.tagName == 'SECTION') break;
-                target = target.parentElement;
-              }
-              return target;
-            },
-            scrollPointSpeed = function(scrollPoint) {
-              let x = parseInt(scrollPoint.dataset.scrollSpeed);
-              switch (x) {
-                case 5:
-                  return 250;
-                case 4:
-                  return 500;
-                case 3:
-                  return 750;
-                case 2:
-                  return 1000;
-                case 1:
-                  return 1250;
-                default:
-                  break;
-              }
-              return 750;
             }
         // Background video utilities
         function videoBackground(id, settings) {
@@ -139,4 +88,5 @@
             position: 'center',
             loop: true
           });
-        })();
+        });
+      }
