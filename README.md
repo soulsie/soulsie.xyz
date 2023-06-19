@@ -1,5 +1,5 @@
 ## Advanced Portfolio
-![Preview](https://soulsie.xyz/)
+[Preview](https://soulsie.xyz/)
 
 ## Purpose
 **You can use this repo for learning purposes or you can even use various parts of the code as there's nothing special in it**
