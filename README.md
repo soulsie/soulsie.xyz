@@ -9,7 +9,7 @@
 **I cannot prevent you from skidding this portfolio but I just wanted to let you know that you are so pathetic, Because I gave you permission to copy various parts of the code to use in your own project but instead you copy the whole thing and use it as yours.**
 
 ## Credits 
-- @SOULS#3009
+- @ASOULS#3009
 
 ## Disclaimer
 ### This website is not hosted using GitHub pages.
