@@ -2,7 +2,7 @@
 
 // JavaScript utilities for soulsie.xyz
 // The code is ugly ik. Please don't mention it
-// Made by: SOULS#3009
+// Made by: ASOULS#3009
 
 //************************************** */
 
