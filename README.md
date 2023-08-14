@@ -1,7 +1,3 @@
-## Advanced Portfolio
-[Website](https://soulsie.xyz/)
-![PC-Preview](https://files.soulsie.xyz/assets/images/PC-Preview.jpg)
-
 ## Purpose
 **You can use this repo for learning purposes or you can even use various parts of the code as there's nothing special in it**
 
