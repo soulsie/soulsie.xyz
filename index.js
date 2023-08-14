@@ -6,7 +6,7 @@
 
 //************************************** */
 
-// href Elements style
+// Scroll styles
 scrollToElement = function(e, style, duration) {
 	var y, cy, dy, start, easing, offset, f;
 	if(!e) y = 0;
